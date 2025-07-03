@@ -1,0 +1,20 @@
+[project]
+name = "chatbot_utena"
+version = "0.1.0"
+description = "A Streamlit chatbot app about Utena using LangChain and Chroma."
+requires-python = ">=3.9"
+dependencies = [
+    "langchain",
+    "langchain-chroma",
+    "langchain-openai",
+    "langchain-text-splitters",
+    "langchain-core",
+    "langchain-community",
+    "streamlit",
+    "python-dotenv",
+    "openai",
+    "chromadb",
+    "beautifulsoup4",
+    "pypdf>=5.7.0",
+    "pydantic>=2.11.7",
+]
